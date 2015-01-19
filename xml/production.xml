@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<production>
+  <blacksmith>
+    <armor>
+      <suit>
+	<name>1 - 5 Armor Points</name>
+	<cost>10</cost>
+      </suit>
+      <suit>
+	<name>6 - 10 Armor Points</name>
+	<cost>20</cost>
+      </suit>
+      <suit>
+	<name>11 - 15 Armor Points</name>
+	<cost>40</cost>
+      </suit>
+      <suit>
+	<name>16 - 20 Armor Points</name>
+	<cost>60</cost>
+      </suit>
+      <suit>
+	<name>21 - 25 Armor Points</name>
+	<cost>80</cost>
+      </suit>
+      <suit>
+	<name>26 - 30 Armor Points</name>
+	<cost>100</cost>
+      </suit>
+      <suit>
+	<name>31 - 35 Armor Points</name>
+	<cost>120</cost>
+      </suit>
+      <suit>
+	<name>36 - 40 Armor Points</name>
+	<cost>140 Armor Points</cost>
+      </suit>
+    </armor>
+
+    <weapons>
+      <weapon>
+	<name>Arrow</name>
+	<cost>0.5</cost>
+      </weapon>
+      <weapon>
+	<name>Bolt</name>
+	<cost>0.5</cost>
+      </weapon>
+      <weapon>
+	<name>Silvering an Arrow</name>
+	<cost>1</cost>
+      </weapon>
+      <weapon>
+	<name>Silvering a Bolt</name>
+	<cost>1</cost>
+      </weapon>
+      <weapon>
+	<name>Bludgeon</name>
+	<cost>5</cost>
+      </weapon>
+      <weapon>
+	<name>Dagger</name>
+	<cost>5</cost>
+      </weapon>
+      <weapon>
+	<name>Hatchet</name>
+	<cost>5</cost>
+      </weapon>
+      <weapon>
+	<name>Staff</name>
+	<cost>5</cost>
+      </weapon>
+      <weapon>
+	<name>Throwing Dagger</name>
+	<cost>5</cost>
+      </weapon>
+      <weapon>
+	<name>Javelin</name>
+	<cost>10</cost>
+      </weapon>
+      <weapon>
+	<name>Light Crossbow</name>
+	<cost>10</cost>
+      </weapon>
+      <weapon>
+	<name>Shield</name>
+	<cost>10</cost>
+      </weapon>
+      <weapon>
+	<name>Short Bow</name>
+	<cost>10</cost>
+      </weapon>
+      <weapon>
+	<name>Heavy Crossbow</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Long Bow</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Short Hammer</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Short Mace</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Silvering a Weapon</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Spear</name>
+	<cost>15</cost>
+      </weapon>
+      <weapon>
+	<name>Long Hammer</name>
+	<cost>20</cost>
+      </weapon>
+      <weapon>
+	<name>Long Mace</name>
+	<cost>20</cost>
+      </weapon>
+      <weapon>
+	<name>Short Axe</name>
+	<cost>20</cost>
+      </weapon>
+      <weapon>
+	<name>Long Axe</name>
+	<cost>25</cost>
+      </weapon>
+      <weapon>
+	<name>Short Sword</name>
+	<cost>25</cost>
+      </weapon>
+      <weapon>
+	<name>Long Sword</name>
+	<cost>30</cost>
+      </weapon>
+      <weapon>
+	<name>Polearm</name>
+	<cost>40</cost>
+      </weapon>
+      <weapon>
+	<name>Two Handed Blunt</name>
+	<cost>40</cost>
+      </weapon>
+      <weapon>
+	<name>Two Handed Sword</name>
+	<cost>45</cost>
+      </weapon>
+      <weapon>
+	<name>Strengthening</name>
+	<cost>50</cost>
+      </weapon>
+    </weapons>
+  </blacksmith>
+
+  <traps>
+    <type>
+      <name>Gas Trap</name>
+      <cost>25</cost>
+    </type>
+    <type>
+      <name>Noisemaker</name>
+      <cost>2</cost>
+    </type>
+    <type>
+      <name>Weapon Trap</name>
+      <trap>
+	<damage>2</damage>
+	<cost>2</cost>
+      </trap>
+      <trap>
+	<damage>5</damage>
+	<cost>5</cost>
+      </trap>
+      <trap>
+	<damage>10</damage>
+	<cost>10</cost>
+      </trap>
+      <trap>
+	<damage>15</damage>
+	<cost>20</cost>
+      </trap>
+      <trap>
+	<damage>20</damage>
+	<cost>30</cost>
+      </trap>
+      <trap>
+	<damage>30</damage>
+	<cost>50</cost>
+      </trap>
+    </type>
+    <type>
+      <name>Flame/Acid Trap</name>
+      <trap>
+	<damage>15</damage>
+	<cost>20</cost>
+      </trap>
+      <trap>
+	<damage>20</damage>
+	<cost>30</cost>
+      </trap>
+      <trap>
+	<damage>30</damage>
+	<cost>40</cost>
+      </trap>
+      <trap>
+	<damage>50</damage>
+	<cost>50</cost>
+      </trap>
+    </type>
+    <type>
+      <name>Explosive Trap</name>
+      <trap>
+	<damage>20</damage>
+	<cost>40</cost>
+      </trap>
+      <trap>
+	<damage>30</damage>
+	<cost>60</cost>
+      </trap>
+      <trap>
+	<damage>50</damage>
+	<cost>100</cost>
+      </trap>
+    </type>
+    <type>
+      <name>Mechanical Trap</name>
+      <trap>
+	<damage>20</damage>
+	<cost>20</cost>
+      </trap>
+      <trap>
+	<damage>30</damage>
+	<cost>30</cost>
+      </trap>
+      <trap>
+	<damage>50</damage>
+	<cost>50</cost>
+      </trap>
+      <trap>
+	<damage>100</damage>
+	<cost>80</cost>
+      </trap>
+    </type>
+  </traps>
+</production>

@@ -1,0 +1,3436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effects>  
+  <effect>
+    <name>Alchemical Solvent</name>
+    <group>Coating</group>
+    <duration>Instant</duration>
+    <description>
+      This solvent, covering one square foot per dose, will remove
+      everything in the “Coating” effect group.  It can also
+      release a victim of an Entangle.  Once used, the entire
+      dosage is consumed.
+    </description>
+    <contact>5</contact>
+  </effect>
+
+  <effect>
+    <name>Amnesia</name>
+    <group>Greater Command</group>
+    <duration>Instant</duration>
+    <description>
+      Victims of this elixir cannot remember anything that
+      occurred 60 minutes prior to its administration.
+
+      In the place of the now inaccessible memories is a blank
+      spot within the memory.
+
+      Victims can be aware that they cannot remember anything for
+      that period and may reasonably assume that they have been
+      given an Amnesia elixir.
+
+      For the first ten minutes, beginning at the time of the
+      Amnesia’s administration, the Amnesia elixir may be
+      countered and memories of the period returned by either a
+      Dispel or a Purify.
+
+      After the ten minute period, Amnesia becomes incurable and
+      the recipient permanently loses their memory of the 60
+      minute period.
+
+      Biata and stone elf role-playing racial skills cannot remove
+      the effect of an Amnesia elixir, nor can any NPC mind
+      abilities.
+
+      Neither a Life spell nor a Resurrection will restore the
+      memory of the recipient even if it occurs during this ten
+      minute period.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <deadline>Ten minutes</deadline>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Antidote</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      One dose of an Antidote will remove all lasting effects in
+      the Alteration effect group (Feeblemind, Hallucinate,
+      Intoxicate, Laugh, Nausea, Paranoia, and Vertigo). It does
+      not matter how those effects were caused.
+
+      For example: Finther is hit by a Feeblemind gas thrown by
+      his enemy Vorin. He sits on the ground and plays with
+      daisies. While he is on the ground, a ghoul hits him for “3
+      Nausea.” He is now vomiting while playing with
+      daisies. Finally, someone throws a Paralysis spell at him
+      and he becomes paralyzed.  Darlissa runs over and feeds
+      Finther an Antidote. Both the Feeblemind and the Nausea are
+      removed; however, this does not cure the damage caused by
+      the weapon nor does it remove the paralysis.
+    </description>
+    <elixir>20</elixir>
+  </effect>
+
+  <effect>
+    <name>Awaken</name>
+    <group>Command</group>
+    <duration>Instant</duration>
+    <description>
+      This effect awakens the recipient from a Waylay and removes
+      all Command effects but not Greater Command effects.
+    </description>
+    <spell>
+      <verbal>I command you to Awaken.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+    <potion>20</potion>
+    <scroll>20</scroll>
+  </effect>
+
+  <effect>
+    <name>Banish</name>
+    <group>Eldritch Force</group>
+    <duration>Line-of-sight</duration>
+    <description>
+      This spell forces a creature not native to the current plane
+      to return to its home plane or expend a significant amount
+      of energy remaining where it is. Creatures already on their
+      home plane are immune to the Banish effect.
+
+      This spell usually only affects elementals, fey, and
+      extraplanar creatures (NPCs should check the creature type
+      on the monster card), but may affect other types at the
+      discretion of the Plot Committee. PCs may be affected by
+      this spell in certain circumstances to be announced
+      beforehand by the Plot Committee.
+
+      Lesser elementals, lesser fey, and lesser extraplanar
+      creatures affected by this spell instantly dissipate as if
+      slain, leaving behind anything carried. An affected creature
+      with the ability to Rift In or Rift Out may not use that
+      ability until the next game-day.
+
+      For example: Sparky is a Lesser Flame Elemental who has
+      decided to visit his “friends” on Fortannis on Friday
+      night. Belthivis thinks little of this and casts a Banish at
+      the creature, who dissipates instantly, unable to visit
+      Fortannis again until the next game-day (usually the next
+      night, after Logistics).
+
+      Greater elementals, greater fey, and greater extraplanar
+      creatures affected by this spell take 50 points of
+      damage. If slain by this damage, the affected creature
+      cannot Rift In or Rift Out until the next game-day.
+
+      This spell usually has no effect on normal living or undead
+      creatures, but, like all spells, will still remove a Spell
+      Shield or Reflect Magic.
+    </description>
+    <spell>
+      <verbal>With eldritch force I Banish you.</verbal>
+      <school>Celestial</school>
+      <level>4</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Berserk</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect drives the victim into an insane mindless
+      killing fury, causing the victim to attack all creatures in
+      the vicinity, starting with the closest, friend or foe.
+
+      The victim will use no daily Game Abilities except basic
+      weapon skills (including shields and claws). A character
+      with no weapon skill will simply scream in rage and run
+      around with fists clenched.
+
+      The victim of a Berserk will not throw spells or alchemy and
+      will not use Resists, Dodges, Banes, Cloaks, Parrys, or any
+      other defensive skill. Spell Protectives will still work as
+      normal.
+
+      A person under the effects of a Berserk will not stop to
+      give a Killing Blow or search a victim, but will immediately
+      turn to find something else to attack once an attack victim
+      falls.
+
+      For example: Ena is hit by a Berserk effect thrown by a
+      monster. Ena uses her weapon to attack the nearest
+      person. She is able to use her proficiencies but is so
+      mindless that she cannot think to take advantage of any
+      Critical Attacks, Slays, or other daily skills that she
+      could use. She is hit by a troll for enough damage to take
+      her down, but cannot think to use her Parry against it.
+
+      It lasts ten minutes and like all Command effects can be
+      resisted by a Resist Command or removed by Break Command,
+      Awaken, Dispel, or Purify. Only one Command effect may be
+      active on the victim at any one time. The most recent
+      Command effect takes precedence.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Bind</name>
+    <group>Binding</group>
+    <duration>Line-of-sight</duration>
+    <description>
+      This spell snares the arms of its victim, binding them
+      straight to its sides. The victim may talk freely, but may
+      not use any Game Abilities requiring the use of arms,
+      including using a weapon or shield, casting a spell, or
+      activating a gas globe. The victim may walk, run or leave
+      the combat area as desired.
+
+      This spell does not prevent the victim from being searched
+      or being given a Killing Blow, although a moving victim is
+      unlikely to allow either action.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Release</remove>
+    <spell>
+      <verbal>With mystic force I Bind you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+    <scroll>15</scroll>
+  </effect>
+
+  <effect>
+    <name>Bless</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell gives the recipient 5 extra Body Points beyond
+      the character’s maximum. These points are the first Body
+      Points lost to damage.
+
+      In order to be affected by a Bless, the individual must be
+      at 1 Body Point or higher. If not, the player should say “No
+      Effect.” This spell cannot be used to revive an unconscious
+      person.
+
+      A Bless spell will be ineffective if cast upon a character
+      who does not have at least one Body Point, causing the
+      target to call “No Effect” as they are an invalid
+      target. The Body Points added by a Bless spell act in all
+      other ways as per normal Body Points (including interaction
+      with other carrier effects).
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of a Bless.</verbal>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <potion>10</potion>
+  </effect>
+
+  <effect>
+    <name>Cause Critical Wounds</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 20 Body Points of damage. It does not
+      affect armor.
+
+      Against undead, this spell cures 40 Body Points.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Cause Critical Wounds.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+  </effect>
+
+  <effect>
+    <name>Cause Damage</name>
+    <group>Damage</group>
+    <duration>Instant</duration>
+    <description>
+      This substance inflicts 5 points of body damage. It does not
+      affect armor.
+    </description>
+    <elixir>10</elixir>
+    <gas>15</gas>
+  </effect>
+
+  <effect>
+    <name>Cause Light Damage</name>
+    <group>Damage</group>
+    <duration>Instant</duration>
+    <description>
+      This substance inflicts 2 points of body damage. It does not
+      affect armor.
+    </description>
+    <elixir>5</elixir>
+    <gas>10</gas>
+  </effect>
+
+  <effect>
+    <name>Cause Light Wounds</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 2 Body Points of damage. It does not
+      affect armor.
+
+      Against undead, this spell cures 4 Body Points.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Cause Light Wounds.</verbal>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <potion>5</potion>
+  </effect>
+
+  <effect>
+    <name>Cause Mortal Wounds</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 30 Body Points of damage. It does not
+      affect armor.
+
+      Against undead, this spell cures 60 Body Points.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Cause Mortal Wounds.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+  </effect>
+
+  <effect>
+    <name>Cause Serious Damage</name>
+    <group>Damage</group>
+    <duration>Instant</duration>
+    <description>
+      This substance inflicts 10 points of body damage. It does
+      not affect armor.
+    </description>
+    <elixir>20</elixir>
+    <gas>25</gas>
+  </effect>
+
+  <effect>
+    <name>Cause Serious Wounds</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 10 Body Points of damage. It does not
+      affect armor.
+
+      Against undead, this spell cures 20 Body Points.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Cause Serious Wounds.</verbal>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+    <potion>20</potion>
+  </effect>
+
+  <effect>
+    <name>Cause Wounds</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 5 Body Points of damage. It does not
+      affect armor.
+
+      Against undead, this spell cures 10 Body Points.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Cause Wounds.</verbal>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <potion>10</potion>
+  </effect>
+
+  <effect>
+    <name>Chaos Blade</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell allows the recipient to transform a weapon into a
+      temporary chaos-enchanted blade.
+
+      The recipient chooses when to use the Chaos Blade, and
+      announces the total damage of the swing while saying “chaos”
+      instead of “normal” or “silver.”
+
+      It may be used on any weapon, even bows and crossbows.
+
+      This spell lasts until dispelled or ten minutes pass,
+      whichever is first.
+
+      Note that this spell only affects creatures who are harmed
+      by chaos and does not heal those normally healed by
+      chaos. Damage bypasses any armor on the target and does
+      direct Body Point damage.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon chaos to grant you a Chaos Blade.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Chaos Storm</name>
+    <group>Necromancy</group>
+    <duration>Concentration</duration>
+    <description>
+      At the time of casting, the caster plants both feet. As long
+      as both feet remain planted, the verbal is stated, and the
+      spell is not disrupted as per normal spell rules, the caster
+      may throw packets. While the spell is in effect, the caster
+      can perform no other skill nor cast any other spell.
+
+      Each packet thrown counts as a separate spell which causes
+      10 points of chaos damage, which goes directly into Body
+      Points and is not blocked by armor. The caster must say
+      “Chaos Storm” with each packet thrown.
+
+      This spell will only damage creatures who are damaged by
+      chaos and may not be used to heal undead creatures. Like all
+      spells, this spell will use up a Spell Shield or Reflect
+      Magic even if the target is immune to the spell’s effect.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to summon a Chaos Storm, Chaos Storm, Chaos Storm...</verbal>
+      <school>Earth</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Charm</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell makes the victim view the caster as his or her
+      best friend in the world. No amount of logic or role-playing
+      will convince the victim that they are indeed charmed, and
+      any order given will be justified and make perfect sense in
+      the mind of the victim. The victim will not remember the
+      casting of the spell.
+
+      An attack on the victim by the caster’s companions will not
+      immediately break the charm but if the caster does not
+      attempt to stop it and if no good reason is provided for the
+      attack, the charm may be broken. A direct attack by the
+      caster will always break the charm, as will attempting a
+      Killing Blow. An order to kill yourself would also break the
+      spell.
+
+      A victim of this spell will not do anything absolutely
+      contradictory to their own race or nature (such as cast
+      necromancy). If given an order to attack their own party,
+      the victim would have to also be given a very good and
+      convincing reason. (The victim will, however, protect the
+      new “friend” from attacks, no matter who from.)
+
+      This spell only works on creatures that have a mind as
+      defined by the game. Many creatures (such as lesser undead,
+      golems or insects) do not have a mind that can be affected
+      by this effect. Further, the victim must understand the
+      language of the caster in order to follow the orders.
+
+      Unlike Dominate, this effect does not turn the victim into a
+      mindless robot, but does require the victim to stay by his
+      or her new “friend” and follow all “suggestions” given by
+      the caster. Unlike Enslavement, the victim is unaware of the
+      effect.
+
+      Victims cannot refuse to obey orders with the explanation
+      that they “wouldn’t do that even for my best friend.” This
+      spell overwrites the logic of the brain. If your new “best
+      friend” tells you to hand over all your items, you will do
+      so without question.
+
+      When the spell’s duration ends, the victim remembers
+      everything that happened except the actual casting of the
+      Charm spell, and will almost always realize that he or she
+      had been charmed.
+
+      This effect can be removed by an Awaken, a Break Command, a
+      Dispel, or a Purify. Note as well that only one Command
+      effect may be active on the victim at any one time. The most
+      recent Command effect takes precedence. This spell is not
+      strong enough to override any Greater Command effect such as
+      Enslavement.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <spell>
+      <verbal>I command you to be Charmed.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Circle of Power</name>
+    <group>Eldritch Force</group>
+    <duration>One hour</duration>
+    <description>
+      This spell allows the caster to inscribe a Circle of
+      protection against harm. Before casting the spell, a
+      visible, physical representation of the Circle must be drawn
+      in the dirt or represented by something physical like chalk,
+      a ribbon, or some string. This physical representation is
+      in-game and can be erased, moved or stolen at any time
+      before the spell is cast.
+
+      The caster must be fully within the completed Circle. This
+      spell cannot be cast until the phys rep is complete. Anyone
+      who steps on the phys rep while it is being raised will be
+      pushed inside or outside of the Circle (player’s choice),
+      along with all possessions.
+
+      The phys rep does not have to make a perfect circle, but if
+      the phys rep is too big, or if the ends are not almost
+      touching, then the spell is blown.
+
+      A Circle of Power stretches up to 6' in radius and 10' tall
+      and is a cylindrical dome with a flat bottom. The Circle has
+      about the same amount of friction as a normal wall or floor,
+      although objects and creatures cannot lean against, rest
+      against, or be placed on top of the Circle.
+
+      Larger Circles can be made by having multiple spell casters
+      casting the spell simultaneously. For example, a Circle up
+      to 12' radius and up to 20' height may be made by two
+      casters. The casters must say the incant at the exact same
+      time for this to be effective.
+
+      It is possible to surround a Circle with a larger Circle,
+      but a smaller Circle can not be placed inside an already
+      existing Circle. A Circle inside of another Circle is
+      considered its own space; you are not considered to be
+      inside the exterior circle.
+
+      Nothing may enter or leave the Circle once it is cast,
+      including spells, thrown gasses, weapons and
+      creatures. Traps placed near the Circle will not affect
+      anyone or anything inside; similarly, traps within the
+      Circle will not affect anyone outside the Circle.
+
+      Spells may be cast within the Circle, but cannot be thrown
+      through the Circle. Air may pass through, but other gasses
+      may not.
+
+      A gaze attack such as a Vampire Charm can be effective
+      through a Circle of Power. A Gypsy Curse can also be used
+      through the Circle. Creatures inside a Circle are still
+      considered inside Line of Sight.
+
+      The spell lasts for one hour, but may be dropped by the
+      caster at any time if he or she touches the Circle and
+      states “circle down.” If there is more than one caster in a
+      larger Circle, any one of the casters may drop the
+      Circle. The statement “circle down” is out-of-game, although
+      any observers who hear the statement are aware that the
+      Circle was dropped, and they might know who dropped it.
+
+      The Circle will also go down if the caster leaves the Circle
+      magically or dies (needing a Life spell). If there is more
+      than one caster, the Circle will remain up until all of the
+      casters leave or die.
+
+      The Circle is not affected by a Dispel.
+
+      This spell can also be used to create a Circle that can be
+      used for the casting of a Formal Magic ritual. If a ritual
+      is started within one minute of the Circle being cast, the
+      duration of the Circle of Power is extended to one hour and
+      one minute.
+    </description>
+    <spell>
+      <verbal>With eldritch force I build a Circle of Power.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Confine</name>
+    <group>Binding</group>
+    <duration>Line-of-sight</duration>
+    <description>
+      This spell snares the arms of its victim, binding them
+      straight to its sides, and immobilizes the victim
+      completely. The victim may talk freely, but may not use any
+      Game Abilities requiring the use of arms or legs, including
+      using a weapon or shield, casting a spell, or activating a
+      gas globe. The victim may not walk, run, or be moved in any
+      way. This victim can be searched and can be given a Killing
+      Blow.
+
+      The main distinction between a Confine and a Web is that
+      certain monsters that can break free from a Web cannot
+      necessarily do so from a Confine.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Release</remove>
+    <spell>
+      <verbal>With mystic force I Confine you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Control Undead</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell allows the caster to control one lesser undead
+      for ten minutes. Tasks may not involve anything a trained
+      animal could not be taught: “Guard this” is fine, but “Count
+      all the leaves on the tree” requires sentience and will not
+      work. This spell will also remove all Turn Undead
+      effects. When used on an undead of higher than “low
+      intelligence,” it will force the affected undead to become
+      temporarily able to understand only simple commands.
+
+      The most recent Control Undead effect takes precedent if
+      there is a conflict.
+
+      This spell will not affect a living target, although it will
+      remove a living target’s Spell Shield or Reflect Magic.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon chaos to Control Undead.</verbal>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Create Undead</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell only works on a corpse that has neither
+      previously been animated nor is permanently dead. It will
+      pull the character’s spirit back to reanimate its former
+      body. The resulting zombie will then follow the caster’s
+      commands as if a Control Undead spell had been cast upon it.
+
+      Note that this spell must be cast within the five-minute
+      period between a character’s death and the point where the
+      spirit heads to the Earth Circle for resurrection.
+
+      This spell will not affect a living target, although it will
+      remove a living person’s Spell Shield or Reflect Magic.
+
+      If you are raised, you cannot then “choose to die.”
+
+      The zombie uses none of the skills that the character
+      has. It inflicts two points of damage with any weapon
+      attack. It cannot cast spells nor converse (although it may
+      be commanded to parrot a particular phrase given it by the
+      caster).
+
+      If the newly created zombie has no weapon, then it will be
+      able to attack with “claws” (short sword-sized weapons
+      covered in red duct tape) doing two points of damage
+      each. The caster must provide the physical representations
+      for the claws.
+
+      The zombie created will have half the Body Points the victim
+      had in life (not including enhancement spells such as
+      Bless), as well as any armor that is left on the corpse. Any
+      missing or withered limbs will also be temporarily
+      regenerated for the duration of this spell.
+
+      The zombie is considered Undead in every way, and has the
+      standard immunities and vulnerabilities of Undead. These
+      include being immune to Alteration, Command, Death, Ice,
+      Poison, Paralysis, and Waylay.
+
+      In addition, the creature will take double damage from
+      healing and be healed double by necromancy. The zombie will
+      have no metabolism and will be affected by undead-specific
+      spells such as Turn Undead and Sanctuary.
+
+      The creature’s visual appearance does not change
+      immediately, but the victim will move slowly, shambling
+      along, as a zombie should.  (A zombie fights with normal
+      speed but cannot move fast enough to chase anyone who runs
+      away.)
+
+      If the zombie is reduced to zero Body Points, or if the
+      ten-minute duration of the spell is met, then the body and
+      the spirit return to the condition they would have been in
+      had the Create Undead not been cast.
+
+      If during the five-minute Death Countdown you are “killed”
+      as the undead and then given a Life spell, you will reawaken
+      alive but with no knowledge of your time spent as an undead.
+
+      For example: Poor Terin falls fighting against a necromancer
+      and his undead abominations. He is at -1 Body Points. He
+      lies there for a minute but no one comes to him with First
+      Aid. (Terin is keeping track of the time.) At the end of the
+      minute, he is now dead and all of his Spell Protectives
+      gone. The necromancer sees Terin and then casts a Create
+      Undead spell on him. Terin rises as a zombie. He attacks his
+      party, and the battle lasts more than two minutes. During
+      this period, they throw Life spells at him, but they have no
+      effect because he is a zombie. Finally, they knock him back
+      down to zero Body Points. He is no longer a zombie and is
+      merely a dead body. Since the five minutes since the time of
+      his death are not up, a Life spell will still save Terin,
+      but because the one minute period for First Aid has expired,
+      he can no longer be saved by First Aid or a curing spell.
+      The death countdown did not stop when Terin became a zombie.
+
+      The ten-minute spell duration cannot be extended by any
+      means, even by Formal Magic.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Create Undead.</verbal>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Cure Critical Wounds</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell restores up to 20 Body Points but never more than
+      a character’s maximum.
+
+      It restores an unconscious or dying character but does not
+      resurrect a dead one. It inflicts 40 Body Points of Damage
+      to undead creatures.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Critical Wounds.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+  </effect>
+
+  <effect>
+    <name>Cure Disease</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will cure a character infected with Disease. If
+      cast upon an undead, it will make it unable to run.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Disease.</verbal>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <potion>5</potion>
+  </effect>
+
+  <effect>
+    <name>Cure Light Wounds</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This effect restores up to 2 Body Points but never more than
+      a character’s maximum. It restores an unconscious or dying
+      character but does not resurrect a dead one. It inflicts 4
+      Body Points of damage to undead creatures.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Light Wounds.</verbal>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <potion>5</potion>
+    <elixir>5</elixir>
+  </effect>
+
+  <effect>
+    <name>Cure Mortal Wounds</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell restores up to 30 Body Points but never more than
+      a character’s maximum. It restores an unconscious or dying
+      character but does not resurrect a dead one. It inflicts 60
+      Body Points of damage to undead creatures.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Mortal Wounds.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+  </effect>
+
+  <effect>
+    <name>Cure Serious Wounds</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell restores up to 10 Body Points but never more than
+      a character’s maximum. It restores an unconscious or dying
+      character but does not resurrect a dead one. It inflicts 20
+      Body Points of damage to undead creatures.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Serious Wounds.</verbal>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+    <potion>20</potion>
+  </effect>
+
+  <effect>
+    <name>Cure Wounds</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell restores up to 5 Body Points but never more than
+      a character’s maximum. It restores an unconscious or dying
+      character but does not resurrect a dead one. It inflicts 10
+      Body Points of damage to undead creatures.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Cure Wounds.</verbal>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <potion>10</potion>
+  </effect>
+
+  <effect>
+    <name>Death</name>
+    <group>Gift</group>
+    <duration>Instant</duration>
+    <description>
+      This effect causes the spirit of any victim with a
+      metabolism to flee its body. Any armor the character was
+      wearing is still intact, but all spells active on the victim
+      will disappear.
+
+      This acts as a Killing Blow, and the only thing that will
+      save the victim from resurrection is a Life spell.
+    </description>
+    <remove>Life</remove>
+    <deadline>Five minutes</deadline>
+    <spell>
+      <verbal>I grant you the gift of Death.</verbal>
+      <school>Earth</school>
+      <level>9</level>
+    </spell>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Desecrate</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell will remain in effect as long as the subject’s
+      hands are crossed over the chest and no body damage is
+      taken, or ten minutes, whichever is shorter. The recipient
+      is protected against all weapon attacks from living
+      creatures, including arrows and bolts. It does not protect
+      against Spell Strikes.
+
+      You cannot run while affected by a Desecrate. You can not do
+      anything that requires the use of your hands, such as cast
+      spells, use weapons, use poisons, feed someone a potion, or
+      pick up items. The only exception to this is touch casting
+      on yourself or activating a magic item.
+
+      You can be fed a potion and you can continue to hold things
+      that were in your hands at the time the Desecrate began.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon chaos to Desecrate you.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Destroy</name>
+    <group>Summoned Force</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will utterly destroy any object up to the size of
+      a normal door, rendering it useless. It cannot be used to
+      create a door-sized hole in an object larger than a
+      door. Once destroyed, the phys rep will become unusable but
+      not unrecognizable. A Destroy cast at a door will not
+      totally destroy the door, but will damage it enough to allow
+      passage through the door’s frame.
+
+      This spell can target a suit of armor and will destroy the
+      armor completely. The armor cannot be refit and is ruined
+      forever. The spell Shield will be unaffected.
+
+      The spell will not work on a permanent magic item or a
+      magically protected item such as a Wizard Locked
+      door. Destroying a trapped item will set off and destroy the
+      trap as well.
+
+      The target item must be named, and only the target item will
+      be Destroyed. Items that are contained within or attached
+      will not be affected. If there are two or more items that
+      fit the description of the incant, then a hand-held item
+      will be affected before one simply carried on one’s person;
+      thus if a caster says “I summon a force to destroy your
+      weapon” then the sword that is being carried will be
+      destroyed rather than the dagger strapped to the back.
+
+      If the item that is being carried is protected against the
+      Destroy (such as by being strengthened or by being a magic
+      weapon), then the spell is used up and will not affect
+      another similar item in the possession of the target.
+
+      A shield is not considered a “weapon” for the purpose of
+      Destroy.
+    </description>
+    <spell>
+      <verbal>I summon a force to Destroy &lt;item&gt;.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+    <scroll>35</scroll>
+  </effect>
+
+  <effect>
+    <name>Destroy Undead</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will destroy any one lesser undead
+      creature. Greater undead will take 50 Body Points of damage.
+
+      This spell will not affect a living target, although, like
+      all spells, it will remove a living person’s Spell Shield or
+      Reflect Magic.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Destroy Undead.</verbal>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Destruction</name>
+    <group>Curse</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell will cause the victim to take double damage from
+      all attacks that would affect them, either physical or
+      magical. This applies only to damage causing attacks; for
+      instance, a Bind spell would still affect the victim
+      normally.
+
+      This effect is not cumulative; if a victim is hit by two
+      Destruction spells, the second one will have no effect
+      except to restart the time period before the Destruction
+      expires.
+
+      This spell will not affect a creature’s threshold or other
+      defensive mechanisms, nor does it make a creature vulnerable
+      to attacks that would normally not affect it.
+
+      This effect will last for 10 minutes or until removed by a
+      Remove Destruction, a Purify, or a Dispel.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Remove Destruction</remove>
+    <spell>
+      <verbal>I curse you with Destruction.</verbal>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+    <potion>35</potion>
+  </effect>
+
+  <effect>
+    <name>Disarm</name>
+    <group>Summoned Force</group>
+    <duration>Five seconds</duration>
+    <description>
+      This spell causes the target to drop one specific hand-held
+      item. The dropped item may not be picked up by the victim
+      for five seconds.
+
+      The caster decides what the item is that is to be
+      disarmed. A general description like “weapon” is fine,
+      although if the target is holding two items that match the
+      description, it is the target’s choice as to which to
+      drop. If the target is only carrying one thing, then “item”
+      is sufficient.
+
+      Shields, arrows, and bolts are not considered “weapons” for
+      purposes of this spell, although a bow or crossbow is. If
+      the caster wishes to disarm a shield, arrow or bolt, then
+      the specific item must be stated in the verbal.
+
+      Spell packets cannot be affected by this spell, but gas
+      globes can be.
+
+      Disarm is strong enough to overcome any rope or chain that
+      may be attached to the hand.  If the chain is unshatterable
+      then it will become “unrung.” You cannot avoid this spell by
+      tying your weapon to your hand.
+
+      If a Paste of Stickiness was applied to the item up to ten
+      minutes prior, the item will remain in your hand, but the
+      Paste of Stickiness will be used up in the process. The
+      Paste of Stickiness tag must be taped to the item. The
+      proper call to use in this circumstance is “no effect.”
+
+      A Spirit Linked item will not be dropped, but cannot be used
+      for five seconds. The victim must place the weapon behind
+      his or her back for the five seconds.
+
+      You cannot avoid this spell by borrowing a weapon and thus
+      claiming that the spell doesn’t affect you because the
+      weapon isn’t “yours.”  Nor can you avoid it by dropping the
+      weapon to the ground or throwing your weapon up in the air
+      just before the packet is about to hit you, thus claiming
+      that the weapon was not in your possession at the point of
+      contact of the spell.
+    </description>
+    <prevent>Paste of Stickiness</prevent>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I summon a force to Disarm your &lt;item&gt;.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <scroll>5</scroll>
+  </effect>
+
+  <effect>
+    <name>Disease</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell will infect the recipient with a debilitating
+      disease. The infection is not contagious, but makes the
+      victim unable to run.
+
+      Against undead, this spell will remove the effects of a Cure
+      Disease spell.
+
+      This spell might not be effective against creatures without
+      a metabolism.
+    </description>
+    <remove>Cure Disease</remove>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon chaos to cause Disease.</verbal>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <potion>5</potion>
+  </effect>
+
+  <effect>
+    <name>Dispel</name>
+    <group>Protection/Enhancement</group>
+    <duration>Instant</duration>
+    <description>
+      This effect will dispel all active effects on a given
+      creature or object whatever the cause, whether beneficial or
+      harmful.
+
+      It will not remove Wards, Circles of Power, or anything from
+      the Greater Command effects group (Amnesia, Love Potion #9,
+      Enslavement, Euphoria or Terror) with the exception that it
+      will remove the effect of Amnesia if administered within the
+      first ten minutes.
+
+      Dispel will remove Wizard Locks, Walls of Force, and
+      Prisons.
+
+      A Dispel thrown at a person will not remove effects on any
+      items held by that person.  For instance, Belthivis is hit
+      by a Dispel. All of his spell protectives are now
+      gone. However, the Weakness Weapon Coating he has on his
+      dagger is still active.
+
+      A Dispel thrown at a caster will not stop already existing
+      effects of that caster’s spell.  For example: Darlissa casts
+      a Shun at a goblin. She is then hit with a Dispel. All
+      active spells on her are now gone, but the Shun is still in
+      effect.
+    </description>
+    <spell>
+      <verbal>I grant you the power to Dispel.</verbal>
+      <school>Celestial</school>
+      <level>8</level>
+    </spell>
+    <scroll>40</scroll>
+  </effect>
+
+  <effect>
+    <name>Dominate</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect makes the victim subject to specific commands of
+      the person who administered the effect. For the elixir, it
+      would be the person who administered the elixir, which would
+      include placing it within food or drink, even if that person
+      is not in view at the time.
+
+      The target of a Dominate will not attack the person who
+      administered the Dominate while it is in effect.
+
+      The administrator can give the target multiple commands
+      within the ten minute period, but the victim will only
+      follow the last one given.
+
+      While following these commands the target is in a trance and
+      performs the last order until that order has been
+      completed. Afterward the target will stand and await the
+      next order.
+
+      After ten minutes (or after the effect is countered), the
+      victim comes out of the trance and acts as normal, and has
+      full knowledge that he or she was dominated and what was
+      done during that time.
+
+      While dominated, the victim must perform actions to the best
+      of his or her ability and knowledge, including the use of
+      spells and skills. The victim does not have the ability to
+      pick and choose less effective abilities to use, nor may
+      they choose to not perform certain commands due to their
+      personality or race. For example, if the victim knows that
+      the person who Dominated them is undead, and that person
+      commands the victim to heal them, they will not only cast
+      necromancy on that person but will not be able to choose to
+      use less powerful spells if they have more powerful ones
+      available that are needed. Similarly, if a Flame Elemental
+      Dominated someone, and that character knew that Flame
+      Elementals are healed by Flame, they would do their best to
+      use Flame to heal the Elemental if commanded.
+
+      The victim can defend themselves from any attackers, but if
+      the caster attacks the victim the Dominate effect ends.
+
+      This effect can be removed by an Awaken, a Break Command, a
+      Dispel, or a Purify. Note as well that only one Command
+      effect may be active on the victim at any one time. The most
+      recent Command effect takes precedence. This spell is not
+      strong enough to override any Greater Command effect such as
+      Enslavement.
+
+      The death of the administrator will not necessarily end the
+      Dominate. For instance, Darlissa is Dominated to Vorin who
+      commands her to heal him. She stands behind him and throws
+      healing into him as he needs it in battle.  Vorin is killed
+      by Rendal, and Darlissa immediately throws a Life spell at
+      Vorin and then heals him up. Vorin’s death did not stop the
+      Domination.
+
+      This spell only works on creatures that have a mind as
+      defined by the game. Many creatures (such as lesser undead,
+      golems or insects) do not have a mind that can be affected
+      by this effect.
+
+      The only valid commands that a caster can give a target
+      while they are dominated are listed below. Note that the
+      wording of a command does not need to exactly match the
+      following but it should be similar enough to it so that the
+      target can understand what is meant.
+
+      Defend me: The target must protect the caster from all
+      attacks to the best of their ability, even if it requires
+      using spells and magic items. During this time, the target
+      will not attack anyone who is not attacking them or the
+      caster.
+
+      Follow me: The target must follow the caster. The target
+      will not attack anyone who is not attacking them.
+
+      Give your &lt;item&gt; to me: The target must give the named
+      item to the caster.
+
+      Heal me: The target must make every attempt to heal or Life
+      the caster. During this time the target will not attack
+      anyone and will do everything possible, including fighting
+      their allies, to prevent the healing from being stopped.
+
+      Return to normal: This command ends the Dominate effect.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>35</elixir>
+    <gas>40</gas>
+  </effect>
+
+  <effect>
+    <name>Dragon's Breath</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell allows the caster to throw a bolt of magical
+      flame which inflicts 40 points of fire damage to the
+      victim. The flame is eldritch in origin and will not
+      otherwise set anything alight.
+    </description>
+    <spell>
+      <verbal>I call forth a Dragon's Breath.</verbal>
+      <school>Celestial</school>
+      <level>8</level>
+    </spell>
+    <scroll>40</scroll>
+  </effect>
+
+  <effect>
+    <name>Drain</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect will introduce impurities into the victim’s
+      blood. The victim is left extremely weak, and unable to
+      fight or move faster than normal walking speed. The victim
+      becomes unable to use any Game Abilities.
+
+      It can be removed by a Purify or a Dispel or by the death of
+      the victim.
+
+      If this spell is cast upon an undead creature, it will have
+      the same effect as a Purify has on a living creature. In
+      this capacity, Drain will remove Healing effects instead of
+      Necromancy effects.
+
+      It may be ineffective on certain creatures that have no
+      metabolism.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <spell>
+      <verbal>I call upon chaos to Drain you.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+  </effect>
+
+  <effect>
+    <name>Earth Blade</name>
+    <group>Healing</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell allows the recipient to transform a weapon into a
+      temporary earth-enchanted blade. The recipient chooses when
+      to use the Earth Blade, and announces the total damage of
+      the swing while saying “earth” instead of “normal” or
+      “silver.” It may be used on any weapon, even bows and
+      crossbows.
+
+      This spell lasts until dispelled or ten minutes pass,
+      whichever is first.
+
+      Note that this spell only affects creatures who are harmed
+      by earth, but does not heal those normally healed by
+      earth. Since all players are not undead, they will not be
+      affected by any creature calling “earth” damage. However,
+      this spell will set off a Magic Armor even if the target is
+      immune to the spell’s effect.
+
+      Damage bypasses any armor on the target and does direct body
+      damage.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon the earth to grant you an Earth Blade.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Earth Storm</name>
+    <group>Healing</group>
+    <duration>Concentration</duration>
+    <description>
+      This spell allows the caster to throw earthbased damage
+      spells.
+
+      At the time of casting, the caster plants both feet. As long
+      as both feet remain planted, the verbal is stated, and the
+      spell is not disrupted as per normal spell rules, the caster
+      may throw packets. While the spell is in effect, the caster
+      can perform no other Game Ability nor cast any other spell.
+
+      Each packet thrown counts as a separate spell which causes
+      10 points of earth damage, which goes directly into Body
+      Points and is not blocked by armor. The caster must say
+      “Earth Storm” with each packet thrown.
+
+      This spell will only damage creatures who are damaged by
+      earth and may not be used to heal. Undead will thus take 10
+      points of damage per packet (not 20!), while most living
+      creatures will not take any damage. However, like all
+      spells, this spell will use up a Spell Shield or Reflect
+      Magic even if the target is immune to the spell’s effect.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to summon an Earth Storm, Earth Storm, Earth Storm...</verbal>
+      <school>Earth</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Elemental Blade</name>
+    <group>Protection/Enhancement</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell allows the recipient to transform a weapon into a
+      temporary elemental-enchanted blade.
+
+      The recipient chooses which element and when to use the
+      Elemental Blade, and announces the total damage of the swing
+      while saying “&lt;element&gt;” instead of “normal” or
+      “silver.”
+
+      Available choices are ice, flame, lightning, or stone. It
+      may be used on any weapon, even bows and crossbows.
+
+      This spell lasts until dispelled or ten minutes pass,
+      whichever is first.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of an Elemental Blade.</verbal>
+      <school>Celestial</school>
+      <level>4</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Elemental Blast</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell allows the caster to affect a target with a bolt
+      of magical stone, lightning, ice, or flame, doing 45 points
+      of eldritch damage.
+
+      The caster of the spell may choose which type of damage to
+      throw at the time of the casting, signifying such through
+      the verbal.
+    </description>
+    <spell>
+      <verbal>I call forth a(n) &lt;Flame, Ice, Lightning, or Stone&gt; Blast.</verbal>
+      <school>Celestial</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Elemental Shield</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell protects the recipient from the next effect with
+      the word “elemental” in the verbal. It is then immediately
+      used up.
+
+      This spell cannot be used to protect the recipient from a
+      flame or acid trap or from elemental-based Evocation spells.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of an Elemental Shield.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+    <scroll>30</scroll>
+  </effect>
+
+  <effect>
+    <name>Endow</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell endows the recipient with the ability to inflict two
+      extra points of damage if the swing hits the target.
+
+      The total damage must be announced while swinging.
+
+      Once called, the spell is used up whether the blow succeeds or
+      not.
+
+      The recipient may choose when to use an Endow.
+
+      An Endow will also allow a recipient to break free, or to break
+      someone else free, from an Entangle. However, doing so immediately
+      expends the benefit of the spell. You must state “Endow, I break you
+      free” when doing so. This is an out-of-game statement and can be made
+      while under the effects of Silence.
+
+      This spell can also be used to perform certain limited
+      role-playing tasks such as quickly dragging an unconscious or
+      debilitated creature for five seconds without having to literally
+      perform the task out-of-game. You must state “Endow” when doing these
+      actions. This is an out-of-game statement and can be made while under
+      the effects of Silence.
+
+      Endow does not allow you to break a lock or other item, throw
+      creatures, break down doors, or jump long distances. It does not allow
+      you to hurt a monster that can only be damaged by magical weapons.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of an Endow.</verbal>
+      <school>Earth</school>
+      <level>1</level>
+    </spell>
+    <potion>5</potion>
+  </effect>
+
+  <effect>
+    <name>Enflame</name>
+    <group>Summoned Force</group>
+    <duration>Five seconds</duration>
+    <description>
+      This effect causes any hand-held item to flare with painful
+      magic, causing 20 points of damage to the person or creature
+      carrying the item. It will also act as a Disarm effect
+      towards that item if the creature is affected by the
+      damage. Since this effect is in the Summoned Force effect
+      group, only defences against Summoned Force are applicable.
+
+      If you are not holding a hand-held item, then this spell
+      will do no damage to you (although, like all spells, it will
+      remove your Spell Shield or activate a Reflect Magic). Claws
+      are not considered a hand-held item.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I summon a force to Enflame &lt;item&gt;.</verbal>
+      <school>Celestial</school>
+      <level>6</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Enslavement</name>
+    <group>Greater Command</group>
+    <duration>Indefinite</duration>
+    <description>
+      The victim of this effect is enslaved to the person
+      administering the effect and obeys absolutely any and all commands
+      given by the person to whom they are enslaved.
+
+      If administered by a poison, the victim will be enslaved to
+      whoever did the poisoning, even if that person is not in view at the
+      time.
+
+      The victim will even commit suicide, cast necromancy, or
+      otherwise act out of character in pursuit of the commands.
+
+      An enslaved person will never attack the person who enslaved
+      them unless ordered by the enslaver to do so.
+
+      If enslaved and given an order through a Charm, Dominate, or
+      through any other effect which contradicts an order given by the
+      enslaver, the Enslavement will always take precedence. If there is no
+      conflict then the enslaved victim must still obey all rules of other
+      controlling magics. The most recent Enslavement effect takes
+      precedence if there is a conflict.
+
+      You cannot be enslaved to ignore other effects; in other words,
+      the enslaver cannot order you to never be affected by Fears or
+      Dominates or Intoxicates or any other effect that would normally
+      affect you. The victim continues to obey the commands until
+      cured. Enslavement can only be removed by the specific antidote or
+      through resurrection.
+
+      Characters cured of Enslavement will remember having been
+      enslaved. This does not override any applicable Amnesia effects.
+    </description>
+    <remove>Enslavement Antidote</remove>
+  </effect>
+
+  <effect>
+    <name>Enslavement Antidote</name>
+    <group>Remove Greater Command</group>
+    <duration>Instant</duration>
+    <description>
+      This antidote is the only thing that releases a victim from
+      the effects of an Enslavement effect other than
+      resurrection.
+
+      It will not remove role-playing-only biata or stone elf
+      mental affects.
+    </description>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Entangle</name>
+    <group>Binding</group>
+    <duration>Ten minutes</duration>
+    <description>
+      Some monsters can shoot a substance that uses a physical
+      means to trap victims (such as sticky strands of silk). The
+      effect of this is like the effect Web except that it is not
+      normally magical in any way. Unless otherwise specified by
+      an explicit delivery type, it is entirely a physical effect
+      and as such is not stopped by any Spell Protections.
+
+      An Oil of Slipperiness applied to the body less than ten
+      minutes beforehand will protect against one such attack.
+
+      A Release spell, an Alchemical Solvent, or an Oil of
+      Slipperiness will free a victim. It can also be removed by a
+      Dispel. A Purify will not release the victim, as this is not
+      an effect on the spirit.
+
+      The victim can be cut by someone using an edged weapon, but
+      this takes at least three seconds (“One I cut you out, two I
+      cut you out, three I cut you out.”).
+
+      You can use an Endow to break free, expending the spell or
+      skill in the process. Someone else with an Endow effect can
+      likewise break you free.
+    </description>
+    <prevent>Oil of Slipperiness</prevent>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <remove>Edged Weapon</remove>
+    <remove>Endow</remove>
+    <remove>Oil of Slipperiness</remove>
+    <remove>Release</remove>
+  </effect>
+
+  <effect>
+    <name>Euphoria</name>
+    <group>Greater Command</group>
+    <duration>Indefinite</duration>
+    <description>
+      This elixir is highly addictive. It gives the victim a
+      feeling of euphoria that lasts about an hour. Any time the
+      addicted character does not get one dose of Euphoria in a 24
+      hour period, one Body Point is temporarily deducted from
+      that character’s maximum Body Points.
+
+      The 24 hour period is calculated from the time of the
+      initial ingestion of the Euphoria elixir.
+
+      This maximum Body Point deduction cannot be cured as long as
+      the person is still under the effects of the drug. The
+      cumulative maximum Body point deduction damage will not take
+      place between events or at events not attended.
+
+      A victim who reaches -1 Body Points will die, needing a
+      resurrection (a Life spell will not work, as their maximum
+      Body Point total is still -1).
+
+      The grip of Euphoria can only be broken if the character is
+      given the specific antidote, or by resurrection. Receiving
+      the Antidote will allow for healing up to the victim’s
+      maximum amount of Body Points before the Euphoria.
+    </description>
+    <remove>Euphoria Antidote</remove>
+  </effect>
+
+  <effect>
+    <name>Euphoria Antidote</name>
+    <group>Remove Greater Command</group>
+    <duration>Instant</duration>
+    <description>
+      This antidote is the only thing other than resurrection that
+      releases a victim of Euphoria.  It will restore the victim’s
+      normal Body Point maximum but does not cure any Body Points
+      lost during the addiction.
+    </description>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Fear</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      Some creatures have the ability to invoke a magical fear.
+
+      The feared victim must attempt to break Line of Sight and
+      cannot perform any Game Abilities while trying to escape.
+
+      If breaking Line of Sight is impossible, the victim will
+      stay as far from the attacker as possible. Even if Line of
+      Sight is broken, the effect lasts ten minutes or until the
+      creature is dead.
+
+      For example, Ena gets Feared by a vampire. She runs
+      screaming around a corner and five seconds later (as per the
+      “Line of Sight” rule), she feels calm again. She reaches
+      into her pouch to pull out an Awaken potion but the vampire
+      then appears around the corner. Ena is once more feared to
+      the point where she can do nothing but run screaming again,
+      trying to break Line of Sight, as the ten minutes are not
+      up.
+
+      The racial abilities Resist Command and Resist Fear can be
+      used as a defense against this ability and an Awaken, Dispel
+      or Purify will free someone who is Feared. The fear can also
+      be broken by a Break Command.
+
+      Note as well that only one Command effect may be active on
+      the victim at any one time, and the most recent Command
+      effect takes precedence.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+  </effect>
+
+  <effect>
+    <name>Feeblemind</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect lowers a character’s intelligence to that of an
+      idiot for ten minutes.
+
+      A Feebleminded person is still smart enough to run away from
+      obvious danger but too stupid to use any Game Abilities
+      (even Read and Write) or use potions, scrolls, elixirs or
+      magic items.
+
+      A Feebleminded person can never take actions to cure the
+      Feeblemind. It can be removed by an Antidote, a Dispel, or a
+      Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>30</elixir>
+    <gas>35</gas>
+    <weapon>40</weapon>
+  </effect>
+
+  <effect>
+    <name>Flame Bolt</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 20 points of eldritch flame damage to the victim.
+    </description>
+    <spell>
+      <verbal>I call forth a Flame Bolt.</verbal>
+      <school>Celestial</school>
+      <level>4</level>
+    </spell>
+    <scroll>20</scroll>
+  </effect>
+
+  <effect>
+    <name>Fortress</name>
+    <group>Eldritch Force</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell provides its target with limited immunity to
+      weapon attacks. The spell will last ten minutes or until the
+      target breaks the spell’s physical requirements.
+
+      The target of the spell must plant his or her feet and raise
+      both arms above the head without crossing them. Moving
+      either foot or lowering an arm ends the spell.
+
+      Any body damage taken also breaks the Fortress.
+
+      The target may touch-cast spells (on themselves only) but
+      may use no other Game Abilities without breaking the
+      protections of the Fortress.
+
+      While the Fortress lasts, the target is immune to weapon
+      blows of 10 or less.
+
+      For example: Belthivis finds himself surrounded by
+      undead. He holds his hands over his head and casts a
+      Fortress. An undead hits him for “9 Death” and Belthivis
+      says “no effect” because it is less than his Protection Aura
+      of 10. Another undead hits him for “11 normal” but that only
+      affects his armor, and so the Fortress is still
+      active. Belthivis touch-casts an Armor spell and a Spell
+      Shield on himself while still in the Fortress. After ten
+      minutes the Fortress will expire if he does not lower it
+      himself or take any body damage.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Fortress.</verbal>
+      <school>Celestial</school>
+      <level>1</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Hallucinate</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This alchemical substance causes the victim to
+      hallucinate. They will see pink elephants and other strange
+      things for ten minutes. The victim will probably be aware
+      that they are under the effects of a poison but will be
+      unable to do much about it.
+
+      Hallucinate is a role-play effect which affects all of the
+      user’s perceptions, not just their sight. A blindfold might
+      block out visual hallucinations (or it might not), but it
+      would not block out the character’s other senses, which are
+      also affected by the Hallucinate.
+
+      When under its effects, Game Abilities can be used, but the
+      player will most likely use them against imaginary
+      creatures, and may even read potion labels and scrolls
+      incorrectly in their delirium.
+
+      It can be removed by an Antidote, a Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>10</elixir>
+  </effect>
+
+  <effect>
+    <name>Harm Undead</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 20 Body Points of damage to an undead
+      creature.
+
+      This spell will not affect a living target, although it will
+      remove a living creature’s Spell Shield or Reflect Magic.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Harm Undead.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Help Undead</name>
+    <group>Necromancy</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will heal an undead creature for 20 Body Points
+      of damage.
+
+      This spell will not affect a living target, although it will
+      remove a living creature’s Spell Shield or Reflect Magic.
+    </description>
+    <spell>
+      <verbal>I call upon chaos to Help Undead.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Ice Bolt</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 15 points of eldritch cold damage to the
+      victim.
+    </description>
+    <spell>
+      <verbal>I call forth an Ice Bolt.</verbal>
+      <school>Celestial</school>
+      <level>3</level>
+    </spell>
+    <scroll>15</scroll>
+  </effect>
+
+  <effect>
+    <name>Ice Storm</name>
+    <group>Evocation</group>p
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 35 points of eldritch cold damage to the
+      victim.
+    </description>
+    <spell>
+      <verbal>I call forth an Ice Storm.</verbal>
+      <school>Celestial</school>
+      <level>7</level>
+    </spell>
+    <scroll>35</scroll>
+  </effect>
+
+  <effect>
+    <name>Intoxicate</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This acts as a strong alcoholic drink yet is odorless and
+      tasteless. It will render the victim quite drunk and will
+      affect all characters and races, even those that for
+      role-playing reasons are “immune” to alcohol. It can be
+      removed by an Antidote, a Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>5</elixir>
+  </effect>
+
+  <effect>
+    <name>Laugh</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect will cause the victim to laugh and giggle
+      repeatedly for ten minutes, during which time no Game
+      Abilities can be used.
+
+      The victim can still run from the area and can still speak
+      between giggles and thus call for help, activate a magic
+      item, or drink an Antidote.
+
+      It will affect all characters, even stone elves. It can be
+      removed by an Antidote, a Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>20</elixir>
+    <gas>25</gas>
+    <weapon>30</weapon>
+  </effect>
+
+  <effect>
+    <name>Lesser Investment</name>
+    <group>Eldritch Force</group>
+    <duration>Five days</duration>
+    <description>
+      This spell must be cast by a caster who is invested in a
+      Ward or Wizard Lock. While inside that Ward or Wizard Lock,
+      the caster may use this spell to invest others into the Ward
+      or Wizard Lock. Any who are inside when the spell is cast
+      are invested and may enter and leave at will or recognize
+      others into the Ward or Wizard Lock.
+
+      In no event will this spell last longer than the Ward or
+      Wizard Lock to which the person is invested. If a Ward is
+      created on Day 1 and a Lesser Investment is cast on Day 4,
+      both will expire on Day 5.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Lesser Investment.</verbal>
+      <school>Celestial</school>
+      <level>3</level>
+    </spell>
+    <scroll>15</scroll>
+  </effect>
+
+  <effect>
+    <name>Life</name>
+    <group>Gift</group>
+    <duration>Instant</duration>
+    <description>
+      This spell must be cast within five minutes of a creature’s
+      death. It restores the creature to one Body Point and the
+      creature is not forced to resurrect. Only this spell can
+      save someone who has been given a Killing Blow or hit by a
+      Death effect.
+
+      This spell will not normally affect a living target or an
+      undead creature, nor a permanently dead character. Like all
+      spells, it will remove a living person or undead creature’s
+      Spell Shield or Reflect Magic.
+
+      This spell must be cast upon the player’s body to be
+      effective. Once the spell is cast, the entire body reforms
+      and any parts elsewhere will dissipate.
+    </description>
+    <spell>
+      <verbal>I grant you the gift of Life.</verbal>
+      <school>Earth</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Light</name>
+    <group>Eldritch Force</group>
+    <duration>Five days</duration>
+    <description>
+      This effect produces a glowing light and allows the person
+      activating the effect to kindle a light wand. The light can
+      then be used by anyone.
+
+      This will not work without a phyical representation. You
+      cannot cast a Light spell at a person or tree and have the
+      person or tree glow.  There must be a flashlight or other
+      out-of-game light source provided.
+
+      If using a flashlight for this spell, the lens of the
+      flashlight must be covered by a cloth, tissue paper or a gel
+      to diffuse the light. Do not shine the light in anyone’s
+      face.
+
+      This spell (like all spells) will remove a Spell Shield or
+      Reflect Magic.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Light.</verbal>
+      <school>Celestial</school>
+      <level>1</level>
+    </spell>
+    <scroll>5</scroll>
+  </effect>
+
+  <effect>
+    <name>Light Vorpal Coating</name>
+    <group>Coating</group>
+    <duration>Indefinite</duration>
+    <description>
+      Putting this contact gel on a weapon makes the weapon
+      inflict 2 extra points of damage once for the very next
+      strike.
+
+      The tag must be taped to the weapon.
+
+      This cannot be combined with any other weapon contact gel
+      such as other vorpal coatings.
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <weapon>5</weapon>
+  </effect>
+
+  <effect>
+    <name>Lightning Bolt</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 10 points of eldritch lightning damage
+      to the victim.
+    </description>
+    <spell>
+      <verbal>I call forth a Lightning Bolt.</verbal>
+      <school>Celestial</school>
+      <level>2</level>
+    </spell>
+    <scroll>10</scroll>
+  </effect>
+
+  <effect>
+    <name>Lightning Storm</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 30 points of eldritch lightning damage
+      to the victim.
+    </description>
+    <spell>
+      <verbal>I call forth a Lightning Storm.</verbal>
+      <school>Celestial</school>
+      <level>6</level>
+    </spell>
+    <scroll>30</scroll>
+  </effect>
+
+  <effect>
+    <name>Liquid Light</name>
+    <group>Coating</group>
+    <duration>Until daybreak</duration>
+    <description>
+      This substance will allow for the use of a cyalume light
+      stick or other light phys rep to be used in-game.
+
+      It lasts until daybreak or until the phys rep stops working,
+      whichever is shorter. It cannot be applied to a tree or
+      other object to make it glow.
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <contact>5</contact>
+  </effect>
+
+  <effect>
+    <name>Love</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This causes the victim to fall deeply in love with the next
+      member of the appropriate sex seen.
+
+      The victim will not act out of character while in love; he
+      or she may flirt, ask the new love out for a romantic
+      dinner, write bad poetry, or perhaps merely pine away from a
+      distance. This potion is not an aphrodisiac.
+
+      It lasts ten minutes and like all Command effects can be
+      resisted by a Resist Command or Resist Poison and removed by
+      a Break Command or an Awaken, Antidote or Purify.
+
+      Note as well that only one Command effect may be active on
+      the victim at any one time, and the most recent Command
+      effect takes precedence.
+    </description>
+    <remove>Antidote</remove> <!-- Love is not Alteration -->
+    <remove>Awaken</remove>
+    <remove>Dispel</remove> <!-- Replace Antidote -->
+    <remove>Purify</remove>
+    <elixir>15</elixir>
+  </effect>
+
+  <effect>
+    <name>Love Potion #9</name>
+    <group>Greater Command</group>
+    <duration>Five days</duration>
+    <description>
+      This potion acts the same as the regular Love Poison except
+      that it cannot be cured or resisted. It will expire on its
+      own in five days or upon resurrection.
+    </description>
+    <elixir>45</elixir>
+  </effect>
+
+  <effect>
+    <name>Magic Armor</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell will protect the wearer from the next single
+      weapon strike. The recipient must state “Magic Armor.”
+
+      The attack and the Magic Armor are then expended.
+
+      This does not protect against a Killing Blow or a fall, nor
+      does it work against any traps other than weapon traps.
+
+      A Magic Armor will be used even if the amount of damage
+      called is “zero.”
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of a Magic Armor.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <potion>10</potion>
+    <scroll>10</scroll>
+  </effect>
+
+  <effect>
+    <name>Magic Blade</name>
+    <group>Protection/Enhancement</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell allows the recipient to transform a weapon into a
+      temporary magic-enchanted blade, allowing damage against
+      certain creatures which can only be harmed by magic. It may
+      be used on any weapon, even bows and crossbows.
+
+      The recipient announces the total damage of the swing while
+      saying “magic” instead of “normal” or “silver.”
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of a Magic Blade.</verbal>
+      <school>Celestial</school>
+      <level>6</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Magic Storm</name>
+    <group>Evocation</group>
+    <duration>Concentration</duration>
+    <description>
+      At the time of casting, the caster plants both feet. As long as both
+      feet remain planted, the verbal is stated, and the spell is not
+      disrupted as per normal spell rules, the caster may throw
+      packets. While the spell is in effect, the caster can perform no other
+      skill nor cast any other spell.
+
+      Each packet thrown counts as a separate spell which causes 10 points
+      of damage. The caster must say “Magic Storm” with each packet thrown.
+
+      Like all spells, this spell will use up a Spell Shield or Reflect
+      Magic even if the target is immune to the spell’s effect.
+    </description>
+    <spell>
+      <verbal>I call forth a Magic Storm, Magic Storm, Magic Storm...</verbal>
+      <school>Celestial</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Nausea</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This elixir will cause the victim to be violently ill for
+      ten minutes, during which time no Game Abilities can be
+      used. The victim can walk slowly from the area and can still
+      speak between heaves and thus call for help, drink an elixir
+      or potion, or activate a magic item. It can be removed by an
+      Antidote, Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>25</elixir>
+    <gas>30</gas>
+    <weapon>35</weapon>
+  </effect>
+
+  <effect>
+    <name>Oil of Slipperiness</name>
+    <group>Coating</group>
+    <duration>Ten minutes</duration>
+    <description>
+      When this contact gel is placed on an item no larger than a
+      weapon, it prevents that item from being held for ten
+      minutes from the time the item is first touched. This can be
+      counteracted by an Alchemical Solvent or a Paste of
+      Stickiness. If placed upon the body or clothing, this
+      substance will resist one Entangle attack, after which it
+      will be expended.
+
+      For example: Terin is getting ready to go into a battle
+      against giant spiders. He is aware that they can throw
+      entangles, so he takes out his Oil of Slipperiness and
+      applies it to himself. This is represented by taking the
+      tag, ripping off the “unused” flag. He runs into battle and
+      is hit by an entangle. “Resist,” he replies.  The Oil is now
+      used up so any other such attacks will affect him as normal.
+
+      Note that this will not protect against a Pin, Bind, Web, or
+      Confine spell.
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <remove>Paste of Stickiness</remove>
+    <contact>15</contact>
+  </effect>
+
+  <effect>
+    <name>Paralysis</name>
+    <group>Curse</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect completely immobilizes the victim. The target
+      cannot move any part of their body and may be given a
+      Killing Blow while thus trapped.
+
+      This can be removed by a Remove Paralysis, a Dispel or a
+      Purify. A Release spell will not remove the effect.
+
+      This spell only works on creatures that have a metabolism.
+
+      Some creatures, such as undead, golems or some elementals,
+      are not affected by this spell.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Remove Paralysis</remove>
+    <spell>
+      <verbal>I curse you with Paralysis.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <elixir>40</elixir>
+    <gas>45</gas>
+  </effect>
+
+  <effects>
+    <name>Paranoia</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This causes the victim to think that everyone is conspiring
+      and plotting against them.  Players should react as they
+      think their characters would to this “knowledge.” Paranoia
+      will never force a player to cast necromancy or otherwise
+      act out of their true nature.
+
+      It can be removed by an Antidote, Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>5</elixir>
+    <gas>10</gas>
+    <weapon>15</weapon>
+  </effects>
+  
+  <effect>
+    <name>Paste of Stickiness</name>
+    <group>Coating</group>
+    <duration>Ten minutes</duration>
+    <description>
+      When this contact gel is placed on an item no larger than a
+      weapon, it causes anyone touching it for more than three seconds to
+      become stuck to it for ten minutes.
+
+      This can be counteracted by an Oil of Slipperiness, an
+      Alchemical Solvent, or a Release spell.
+
+      A Killing Blow will not remove this effect but a resurrection
+      obviously will.
+
+      If placed upon a weapon or item, this substance will resist one
+      Disarm or Enflame attack, after which it will be expended.
+
+      For example: Terin is getting ready to go into a battle, so he
+      places a Paste of Stickiness on his weapon. This is represented by
+      taking the tag, ripping off the “unused” flag. Terin runs into battle
+      and is hit by a Disarm spell.  “Resist,” he replies. The Paste of
+      Stickiness is now used up, so the next Disarm spell will affect him as
+      normal.
+
+      A victim hit with an Enflame spell will still say “resist” to
+      the disarming magics of the spell but will still take the physical
+      damage from the spell.
+
+      If used on a weapon and the weapon is destroyed or shattered,
+      the holder will be stuck with the weapon’s pommel in his or her hand
+      for the duration of the Paste of Stickiness and cannot hold anything
+      else in that hand during that time. Out-of-game, you should drop your
+      weapon phys rep but hold your hand in a fist for the remainder of the
+      ten minutes.
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <remove>Oil of Slipperiness</remove>
+    <remove>Release</remove>
+    <contact>15</contact>
+  </effect>
+
+  <effect>
+    <name>Pin</name>
+    <group>Binding</group>
+    <duration>Line-of-sight</duration>
+    <description>
+      This spell will instantly root the target’s right foot in
+      place. If the target’s foot was off the ground at the time
+      the packet hit, then the foot will be forced to the
+      ground. The target may pivot their body 360 degrees but may
+      not move their right foot.
+
+      It can be removed by a Dispel, a Purify, or a Release.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Release</remove>
+    <spell>
+      <verbal>With mystic force I Pin you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <scroll>10</scroll>
+  </effect>
+
+  <effect>
+    <name>Poison Shield</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This effect protects the recipient from the next attack with
+      the word “poison” in the verbal. It is then immediately used
+      up. It will not protect against ingested elixirs, Weapon
+      Coatings, or Contact Gels such as Oils of Slipperiness or
+      Pastes of Stickiness.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of a Poison Shield.</verbal>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+    <elixir>20</elixir>
+  </effect>
+
+  <effect>
+    <name>Prison</name>
+    <group>Eldritch Force</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell seals the victim into a rigid, form-fitting and
+      unbreakable barrier, trapping him or her within. The victim
+      cannot move, speak, or perform any Game Abilities, including
+      High Magic abilities.
+
+      It lasts for ten minutes, but may be dropped by the caster
+      at any time if he or she touches the victim and states
+      “Prison down.” This statement is out-of-game, and can be
+      used even if the caster is Silenced or inside the
+      Prison. Any observers who hear the statement are aware that
+      the Prison was dropped, and might know who dropped it.
+
+      A Dispel will bring down the Prison, but will not dispel any
+      other effects on the creature inside.
+
+      Any creature sealed within a Prison will call “No effect” to
+      all effects (except Dispel and the Massive carrier), nor
+      will they take any damage from physical attacks or
+      traps. Healing Arts or First Aid will not work through a
+      Prison. A creature within a Prison cannot be searched.
+
+      No Game Abilities, including High Magic abilities, may be
+      used while under a Prison effect.
+
+      However, the Prison does not provide complete and absolute
+      protection against harm.  The victim will suffocate if
+      placed underwater (assuming the victim needs to breathe to
+      survive). The Prisoned creature may also be injured or slain
+      from overwhelming damage such as falling from a great
+      height, at the judgement of a Marshal or Plot member on the
+      scene.
+
+      A Vampire Charm or other gaze attack will still work
+      provided the Prisoned creature’s eyes were open at the time
+      the Prison was cast.
+
+      As with a Ward, no gasses other than air can get inside. The
+      barrier is not a frictionless surface, and has as much
+      friction as a normal creature.
+
+      A victim of the Prison is completely aware of his or her
+      surroundings and unless unconscious or otherwise impaired
+      will remember all that occurred while Prisoned.
+
+      Only the caster may deliver a Killing Blow to the
+      recipient. The caster must say “Prison Down” after
+      delivering a Killing Blow. (“Killing Blow one, Killing Blow
+      two, Killing Blow three, Prison Down.”) If the Killing Blow
+      fails (for example, the creature inside is immune to the
+      caster’s attack), then the Prison will drop as soon as the
+      Killing Blow is completed and the creature may then defend
+      itself.
+
+      A Killing Blow delivered with the Massive carrier will still
+      take a Prison down, whether it succeeds or not, and whether
+      performed by the caster of the Prison or not.
+
+      For safety reasons, you are never allowed to lay the
+      Prisoned victim on the ground, remove the Prison, and then
+      beat the victim to -1 points.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Prison.</verbal>
+      <school>Celestial</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Purify</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This effect will remove all harmful effects from the spirit,
+      leaving protectives. “Harmful effects” includes everything
+      in the effects groups Alteration, Binding, Command, Curse,
+      and Necromancy.
+
+      It will not remove effects in the Greater Command group even
+      though those effects are on the spirit. It will not cure any
+      damage previously wrought by any effect.
+
+      Purify will not remove effects that are not on the spirit
+      (such as Entangle, Prison, Wizard Lock, or Walls of Force).
+
+      This spell will affect an undead as a Drain affects the
+      living. It is also a very good in-game cure for an in-game
+      hangover.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Purify you.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+  </effect>
+
+  <effect>
+    <name>Quicksilver</name>
+    <group>Coating</group>
+    <duration>Indefinite</duration>
+    <description>
+      Putting this contact gel on a weapon makes the weapon
+      inflict silver damage once for the very next strike. The
+      damage call is “&lt;damage&gt; silver.”
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <weapon>10</weapon>
+  </effect>
+
+  <effect>
+    <name>Reflect Magic</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This effect will reflect the next effect delivered by the
+      “spell” qualifier cast at the recipient back upon the
+      caster, after which it is used up. The recipient must say
+      “Reflect Magic” to inform the caster that the spell was
+      returned.
+
+      This spell lasts until used or Dispelled, and cannot be used
+      in conjunction with a Spell Shield. If you have a Reflect
+      Magic active, you may still “accept” spells that are
+      touch-cast.
+
+      When you Reflect, Bane, or Riposte an effect that has
+      already been Reflected, Baned, or Riposted, the target of
+      the effect is once again the original target. You may never
+      Reflect, Bane, or Riposte an effect more than once from the
+      same effect.
+    </description>
+    <spell>
+      <verbal>I grant you the power of a Reflect Magic.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+    <scroll>40</scroll>
+  </effect>
+
+  <effect>
+    <name>Release</name>
+    <group>Binding</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will release a creature caught in a Bind, Pin,
+      Web, or Confine effect as well as negating all active Paste
+      of Stickiness effects upon the creature. It will not free
+      someone under the effects of a Paralysis or a Prison.
+
+      This spell will remove all active binding effects, including
+      Entangle, as well as handcuffs, ropes, stocks, etc.
+
+      It will not unlock a door.
+
+      A Hold can be called if you are physically tied up and need
+      time to remove the item constricting you.
+    </description>
+    <spell>
+      <verbal>With mystic force I Release you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>5</level>
+    </spell>
+    <scroll>25</scroll>
+  </effect>
+
+  <effect>
+    <name>Remove Destruction</name>
+    <group>Remove Curse</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will cancel all Destruction effects.
+
+      It will not restore any lost Body Points.
+    </description>
+    <spell>
+      <verbal>I rid you of Destruction.</verbal>
+      <school>Earth</school>
+      <level>7</level>
+    </spell>
+    <potion>35</potion>
+  </effect>
+
+  <effect>
+    <name>Remove Paralysis</name>
+    <group>Remove Curse</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will cancel all Paralysis effects.
+    </description>
+    <spell>
+      <verbal>I rid you of Paralysis.</verbal>
+      <school>Earth</school>
+      <level>8</level>
+    </spell>
+    <potion>40</potion>
+  </effect>
+
+  <effect>
+    <name>Remove Silence</name>
+    <group>Remove Curse</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will cancel all active Silence effects.
+    </description>
+    <spell>
+      <verbal>I rid you of Silence.</verbal>
+      <school>Earth</school>
+      <level>5</level>
+    </spell>
+    <potion>25</potion>
+  </effect>
+
+  <effect>
+    <name>Remove Weakness</name>
+    <group>Remove Curse</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will cancel all active Weakness effects.
+    </description>
+    <spell>
+      <verbal>I rid you of Weakness.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+    <potion>15</potion>
+  </effect>
+
+  <effect>
+    <name>Repel</name>
+    <group>Binding</group>
+    <duration>Concentration</duration>
+    <description>
+      This spell requires the caster to hit a target with a spell
+      packet and hold the hand used to throw the packet palm out,
+      facing the recipient. The victim and the target should then
+      stay at least ten feet apart while the spell is in effect,
+      and the caster must keep the hand held out toward the
+      target.
+
+      The outstretched hand cannot be used for any other purpose,
+      although the caster may use the other hand for in-game
+      skills.
+
+      When the spell is first cast, the recipient must move ten
+      feet away from the caster. After that, neither the recipient
+      nor the caster may approach within ten feet of each other;
+      the caster cannot approach the recipient any easier than the
+      recipient may approach the caster. Either could back away.
+
+      If the victim is within ten feet when the spell is cast, the
+      victim must move away, but never in a manner that will
+      endanger the victim or cause direct harm to the victim. In
+      other words, the victim cannot be made to jump off a cliff
+      or walk towards a magical rift or do any other action which
+      would cause harm.
+
+      This spell does not create a ten foot magical circle around
+      the caster which is effective only upon the victim; if the
+      victim has to come closer than ten feet in order to get away
+      (for example, to pull close to the caster in order to get to
+      an exit), then that is permissible.
+
+      While within that ten foot area, however, the victim can
+      take no in-game actions against the caster.
+    </description>
+    <spell>
+      <verbal>With mystic force I Repel you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>2</level>
+    </spell>
+    <scroll>10</scroll>
+  </effect>
+
+  <effect>
+    <name>Restore</name>
+    <group>Healing</group>
+    <duration>Instant</duration>
+    <description>
+      This spell causes the target’s limbs to become restored. One
+      casting of this spell can restore all affected limbs.
+
+      This spell is also the only way short of a Life spell or a
+      resurrection to restore a limb that has been severed or
+      amputated, or to restore a broken hand or arm.
+
+      When cast upon undead, it has the same affect as a Wither
+      has on living victims.
+    </description>
+    <spell>
+      <verbal>I call upon the earth to Restore your limbs.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+  </effect>
+
+  <effect>
+    <name>Sanctuary</name>
+    <group>Healing</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell will remain in effect as long as the subject’s
+      hands are clasped above the head and no body damage is
+      taken, or ten minutes, whichever is shorter. The recipient
+      is protected against all weapon attacks from undead
+      creatures, including arrows and bolts. It does not protect
+      against Spell Strikes.
+
+      You cannot run while affected by a Sanctuary. You can not do
+      anything that requires the use of your hands, such as cast
+      spells, use weapons, use poisons, feed someone a potion, or
+      pick up items. However, you can touch-cast on yourself or
+      activate a magic item.
+
+      You can be fed a potion and you can continue to hold things
+      that were in your hands at the time the Sanctuary began.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon the earth to grant you Sanctuary.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Serious Vorpal Coating</name>
+    <group>Coating</group>
+    <duration>Indefinite</duration>
+    <description>
+      Putting this contact gel on a weapon makes the weapon
+      inflict 10 extra points of damage once for the very next
+      strike.
+
+      The tag must be taped to the weapon.
+
+      This cannot be combined with any other weapon contact gel
+      such as other vorpal coatings.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Alchemical Solvent</remove>
+    <weapon>20</weapon>
+  </effect>
+
+  <effect>
+    <name>Shatter</name>
+    <group>Summoned Force</group>
+    <duration>Instant</duration>
+    <description>
+      This spell will destroy any weapon, shield or any object up to
+      the size of a shield, rendering it useless. It cannot be used to
+      create a shield-sized hole in an object larger than a shield. The phys
+      rep will not become unrecognizable, only unusable.
+
+      This spell can target a suit of armor and will destroy the armor
+      completely if the suit’s maximum value is 20 points or less. The armor
+      cannot be refit and is ruined forever. Should the armor have a maximum
+      value of greater than 20 points, it will be unaffected by the Shatter
+      (and the owner should call “No Effect”).
+
+      The spell will not work on a permanent magic item or a magically
+      protected item such as a Wizard Locked door.
+
+      Shattering a trapped item will set off and destroy the trap if
+      the trap was set.
+
+      The target item must be named, and only the target item will be
+      Shattered. Items that are contained within or attached will not be
+      affected.
+
+      If there are two or more items that fit the description of the
+      incant, then a hand-held item will be affected before one simply
+      carried on one’s person; thus if a caster says “I summon a force to
+      shatter your weapon” then the sword that is being carried will be
+      shattered rather than the dagger strapped to the back.
+
+      If the item that is being carried is protected against the
+      Shatter (such as by being strengthened or by being a magic weapon),
+      then the spell is used up and will not affect another similar item in
+      the possession of the target.
+
+      A shield is not considered a “weapon” for the purpose of
+      Shatter.
+    </description>
+    <spell>
+      <verbal>I summon a force to Shatter &lt;item&gt;.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+    <scroll>15</scroll>
+  </effect>
+
+  <effect>
+    <name>Shield</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell gives the recipient 5 extra Armor Points.
+
+      These extra points are the first Armor Points lost due to
+      damage.
+
+      This spell is not limited by Armor Point limitations. A
+      scholar, for instance, can wear the maximum 15 point suit of
+      armor and still have this spell active.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I grant you the power of a Shield.</verbal>
+      <school>Celestial</school>
+      <level>2</level>
+    </spell>
+    <scroll>10</scroll>
+  </effect>
+
+  <effect>
+    <name>Shun</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell causes the victim to feel great discomfort around
+      the caster. The victim will not initiate attack on the
+      caster while the spell is in effect, and the victim will
+      immediately move at least ten feet away from the caster and
+      stay at least that far away while the spell is in effect.
+
+      If the victim is within ten feet when the spell is cast, the
+      victim must move away, but never in a manner that causes
+      direct harm or endangers the victim.
+
+      In other words, the victim cannot be made to jump off a
+      cliff or walk towards a magical rift or do any other action
+      which would cause harm.
+
+      This spell does not create a ten foot magical circle around
+      the caster which is effective only upon the victim; it
+      merely makes the victim attempt to stay at least ten feet
+      away.
+
+      If the victim has to come closer than ten feet in order to
+      get away (for example, to pull close to the caster in order
+      to get to an exit), then that is permissible. While within
+      that ten foot area however, the victim can take no ingame
+      actions against the caster.
+
+      This spell is a Command spell and can be resisted with the
+      racial ability Resist Command, and it can be cured with an
+      Awaken, Dispel, Purify, or Break Command. Only one Command
+      effect may be active on the victim at any one time, and the
+      most recent Command effect takes precedence.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <spell>
+      <verbal>I command you to Shun me.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+    <scroll>20</scroll>
+  </effect>
+
+  <effect>
+    <name>Silence</name>
+    <group>Curse</group>
+    <duration>Ten minutes</duration>
+    <description>
+      The victim of this spell cannot talk, activate magical
+      items, or cast any spell. The player must still call out the
+      damage points his or her weapons inflict if combat ensues
+      while the spell is in effect, as well as any out-of-game
+      phrases such as “Reflect Magic,” “Parry” or “Prepare to
+      Die.”
+
+      The silence can be removed by either Remove Silence, Purify
+      or Dispel.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Remove Silence</remove>
+    <spell>
+      <verbal>I curse you with Silence.</verbal>
+      <school>Earth</school>
+      <level>5</level>
+    </spell>
+    <potion>25</potion>
+  </effect>
+
+  <effect>
+    <name>Sleep</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell causes the target to instantly fall into a deep
+      sleep. Not even strong shaking or yelling in the victim’s
+      ear will rouse them from this magical sleep.
+
+      An Awaken, Purify or Dispel will wake the victim
+      immediately.
+
+      This effect will not work on some creatures without a
+      metabolism, such as undead creatures, golems, or some giant
+      insects.
+
+      This is a Command effect and can be resisted by creatures
+      with a Resist Command ability and removed with a Break
+      Command. Note as well that only one Command effect may be
+      active on the victim at any one time, and the most recent
+      Command effect takes precedence.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <spell>
+      <verbal>I command you to Sleep.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+    <scroll>30</scroll>
+    <elixir>30</elixir>
+    <gas>35</gas>
+    <weapon>40</weapon>
+  </effect>
+
+  <effect>
+    <name>Solidify</name>
+    <group>Eldritch Force</group>
+    <duration>Instant</duration>
+    <description>
+      This spell forces a gaseous form to become immediately
+      solid. The creature may be able to turn gaseous again if it
+      has the skill.
+
+      This spell will not work on certain creatures who are
+      gaseous normally, such as noncorporeal undead or air
+      elementals.
+    </description>
+    <spell>
+      <verbal>With eldritch force I Solidify you.</verbal>
+      <school>Celestial</school>
+      <level>8</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Spell Shield</name>
+    <group>Protection/Enhancement</group>
+    <duration>Indefinite</duration>
+    <description>
+      This spell will cancel the next effect delivered by the
+      “spell” qualifier cast at the recipient, including
+      beneficial spells, after which it is used up. It will also
+      protect against attacks that have the word “magic” in their
+      incant.
+
+      It does not protect the recipient from a magic weapon
+      blow. For example: Finther is hit by Vorin who is using a
+      magical weapon.  “4 Magic” says Vorin. Finther’s Spell
+      Shield will not protect him from this blow.
+
+      You must say “Spell Shield” immediately when this spell is
+      used. Spell Shield cannot be used in conjunction with a
+      Reflect Magic.
+
+      If you have a Spell Shield active, you may still accept
+      spells that are touch-cast. You cannot “accept” spells that
+      are thrown at you, nor can you accept spells when you are
+      unconscious.
+    </description>
+    <spell>
+      <verbal>I grant you the power of a Spell Shield.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>5</level>
+    </spell>
+    <potion>25</potion>
+    <scroll>25</scroll>
+  </effect>
+
+  <effect>
+    <name>Stone Bolt</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 5 points of eldritch stone damage to the victim.
+    </description>
+    <spell>
+      <verbal>I call forth a Stone Bolt.</verbal>
+      <school>Celestial</school>
+      <level>1</level>
+    </spell>
+    <scroll>5</scroll>
+  </effect>
+
+  <effect>
+    <name>Stone Storm</name>
+    <group>Evocation</group>
+    <duration>Instant</duration>
+    <description>
+      This spell inflicts 25 points of eldritch stone damage to
+      the victim.
+    </description>
+    <spell>
+      <verbal>I call forth a Stone Storm.</verbal>
+      <school>Celestial</school>
+      <level>5</level>
+    </spell>
+    <scroll>25</scroll>
+  </effect>
+
+  <effect>
+    <name>Subjugate</name>
+    <group>Eldritch Force</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect allows the control of either a golem or
+      elemental who is subject to specific commands of the person
+      who administered the effect: In the case of the spell, this
+      would be the caster.
+
+      The target of a Subjugate spell will not attack the person
+      who administered the Subjugate while it is in effect. The
+      administrator can give the target multiple commands within
+      the ten minute period, but the target will only follow the
+      last one given. The caster of the spell may order the target
+      to stop any command once it has been given without
+      explicitly ordering the target to return to normal. For
+      example, a caster could order a target to “Carry that
+      person,” and then “Stop carrying that person.”
+
+      Creatures who are spirit stored in golems as defined by the
+      game are also affected by the spell. This includes Player
+      Characters.
+
+      While following these commands, the target is under complete
+      control of the caster and performs the last order until that
+      order has been completed. Afterward the target will stand
+      and await the next order.
+
+      After ten minutes (or after the effect is countered), the
+      victim comes out of the control and acts as normal, and has
+      full knowledge that he or she was Subjugated and what was
+      done during that time.
+
+      While Subjugated, the victim must perform actions to the
+      best of his or her ability, including the use of spells,
+      skills or innate abilities. Note that this spell cannot
+      force a target to cast or use items that are not in his or
+      her nature or ability to use.
+
+      The victim can defend themselves from any attackers, but if
+      the caster attacks the victim, the Subjugate effect ends.
+
+      This effect can be removed by a Dispel.  The death of the
+      caster will end the spell effect.
+
+      Only one Subjugate effect may be active on the target at any
+      one time. The most recent effect takes precedence.
+
+      Subjugate is an Eldritch Force effect, and as such does not
+      counter or override any Command or Greater Command. Note as
+      well that all golems are immune to Command effects.
+
+      For instance, Belthivis has managed to have himself Spirit
+      Stored into an iron golem body. He is hit with a Subjugate
+      spell by his arch enemy Vorin and is ordered to guard Vorin
+      and his party. Belthivis immediately does everything he can
+      to comply. A member of Belthivis’ party then kills Vorin and
+      the spell effect ends, freeing Belthivis.
+
+      Greater elementals may have the ability to resist the
+      effects of the Subjugate spell.
+
+      The only valid commands that a caster can give a target
+      while they are Subjugated are listed below. Note that the
+      wording of a command does not need to exactly match the
+      following but it should be similar enough to it so that the
+      target can understand what is meant.
+
+      Guard: The target must protect the caster or any person or
+      object he is told to guard from all attacks, theft or harm
+      to the best of their ability, even if it requires using
+      spells, skills, magic items or innate abilities, as long as
+      it doesn’t go against their nature. During this time, the
+      target of the Subjugate will not move unless to protect the
+      object or person they’re guarding.
+
+      Follow: The target must follow the caster or anyone the
+      caster wishes followed. The target will not attack anyone
+      who is not attacking them.
+
+      Attack: The golem or elemental will attack a chosen target
+      of the caster’s choosing, even if it requires using spells,
+      magic items or innate abilities. Once the target of the
+      attack command is on the ground, the golem or elemental will
+      not attack and will wait for its new orders.
+
+      Carry/lift: The target will carry or lift objects and or
+      people if it has the necessary strength to do so.
+
+      Return to normal: This command ends the Subjugate effect.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I Subjugate you.</verbal>
+      <school>Celestial</school>
+      <level>7</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Terror</name>
+    <group>Greater Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      The target of a Terror effect is overwhelmed by fear and
+      confusion. These emotions are so intense that the character
+      will attempt to flee the area and break Line of Sight, then
+      fall down and curl up with fear. The character is unable to
+      make any conscious decisions, including activating magic
+      items or using skills.  For all intents and purposes, they
+      are helpless.
+
+      Terror is a Greater Command effect that lasts ten
+      minutes. It can be resisted only through the Resist Fear
+      racial skill, and is cured only through a Break Command or
+      character death.
+
+      For Example: Terin attacks a powerful undead creature which
+      throws a packet at Terin with the call “Arcane Terror.”
+      Terin is defenseless against this attack and runs away
+      screaming until he can no longer see the undead
+      creature. Terin then falls to the ground moaning,
+      role-playing the intense fear his character has been gripped
+      by. After ten minutes, he will come to his senses.
+    </description>
+  </effect>
+
+  <effect>
+    <name>Turn Undead</name>
+    <group>Healing</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell will affect one lesser undead creature, causing
+      it to run from the caster as if affected by Fear (see page
+      118). The undead will immediately attempt to break Line of
+      Sight and can use no Game Abilities while trying to escape.
+
+      If breaking Line of Sight is impossible, the undead will
+      stay as far away from the caster as possible. Even if Line
+      of Sight is broken, the effect lasts ten minutes or until
+      the creature (or caster) is dead. The undead will defend
+      itself if cornered and unable to escape.
+
+      A Dispel or Control Undead will rid the creature of this
+      spell, allowing it to return. One casting of Control Undead
+      will remove all Turn Undead effects.
+
+      Greater undead are not affected by this spell in the same
+      manner, although they will be affected as if a Shun were
+      cast at them.
+
+      This spell will not affect a living target, although it will
+      remove any creature’s Spell Shield or Reflect Magic.
+    </description>
+    <remove>Control Undead</remove>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>I call upon the earth to Turn Undead.</verbal>
+      <school>Earth</school>
+      <level>4</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Vampire Charm</name>
+    <group>Command</group>
+    <duration>Ten minutes</duration>
+    <description>
+      A creature with this ability can charm a person if they can
+      maintain eye contact for five seconds. This power does not
+      require body contact.
+
+      It may also be delivered by other means as well (for
+      example, it could be packet delivered).
+
+      If you are charmed by such a creature, then you must obey
+      all commands the creature gives you. These commands are
+      absolute and are much more powerful than a Charm spell;
+      instead, it is comparable to an Enslavement. If a vampire
+      tells you to commit suicide, you will do so
+      unquestioningly. If you are asked to cast necromancy, you
+      will.
+
+      Spell defenses will not stop a Vampire Charm; however, the
+      racial skill Resist Command will protect the character from
+      this effect and the skill Break Command will remove it, as
+      will Awaken, Dispel, and Purify.
+
+      Unless stated differently on the monster card, the effect
+      lasts ten minutes. The vampire can renew the Vampire Charm
+      within that period.
+
+      Only one Command effect may be active on the victim at any
+      one time. The most recent Command effect takes precedence.
+    </description>
+    <remove>Awaken</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+  </effect>
+
+  <effect>
+    <name>Vertigo</name>
+    <group>Alteration</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect will cause the victim to lose balance and be
+      unable to remain standing for ten minutes, during which the
+      victim can not use any Game Abilities.
+
+      The victim can still speak and thus call for help or
+      activate a magic item but cannot walk away. It can be
+      removed by an Antidote, Dispel, or a Purify.
+    </description>
+    <remove>Antidote</remove>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <elixir>30</elixir>
+    <gas>35</gas>
+    <weapon>40</weapon>
+  </effect>
+
+  <effect>
+    <name>Vorpal Coating</name>
+    <group>Coating</group>
+    <duration>Indefinite</duration>
+    <description>
+      Putting this contact gel on a weapon makes the weapon
+      inflict 5 extra points of damage once for the very next
+      strike. The tag must be taped to the weapon.
+
+      This cannot be combined with any other weapon contact gel
+      such as other vorpal coatings.
+    </description>
+    <remove>Alchemical Solvent</remove>
+    <remove>Dispel</remove>
+    <weapon>15</weapon>
+  </effect>
+
+  <effect>
+    <name>Wall of Force</name>
+    <group>Eldritch Force</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This spell creates an invisible barrier that will stretch no
+      more than ten feet across. This spell must be cast on a
+      doorway or other portal of up to ten feet across and 25 feet
+      high.
+
+      The floor of the Wall of Force must be marked in some way
+      (such as by a rope, chalk mark, or ribbon) to indicate to
+      all observers that a Wall of Force is in place.
+
+      Once the Wall of Force has been cast, the physical
+      representation cannot be moved. Neither the Wall nor the
+      frame may be Destroyed or Shattered. Normal traps will not
+      affect it.
+
+      Nothing may pass though the Wall once the Wall is cast,
+      including spells, thrown gasses, weapons and creatures. Air
+      may pass through, but other gasses may not. A gaze attack
+      such as a Vampire Charm can be effective through a Wall, as
+      will a Gypsy Curse.
+
+      The wall will last for ten minutes, but may be dropped by
+      the caster at any time if he or she touches the phys rep and
+      states “Wall down.”  This statement is out-of-game, although
+      any observers who hear the statement are aware that the wall
+      was dropped, and they might know who dropped it.
+
+      The Wall will also drop if hit by a Dispel.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Wall.</verbal>
+      <school>Celestial</school>
+      <level>3</level>
+    </spell>
+    <scroll>15</scroll>
+  </effect>
+
+  <effect>
+    <name>Ward</name>
+    <group>Eldritch Force</group>
+    <duration>Five days</duration>
+    <description>
+      This spell magically seals a single room or an entire
+      building. The object so affected must be an actual unmovable
+      structure such as a building, a tent, or an unmovable wagon.
+
+      When the spell is cast, a magic barrier will then appear
+      enclosing the area. All portals into the area are sealed by
+      the barrier, including windows.
+
+      Nothing may enter or leave except for air itself. No gaseous
+      forms, gases, weapons, spells —nothing.
+
+      This spell allows only one portal into the structure when
+      cast by a single caster. To indicate the presence of a Ward
+      and the location of any portals, a large “W” must be placed
+      on each portal which allows access in and out of the Ward.
+
+      A Ward may be enhanced by multiple simultaneous
+      castings. These castings must be performed by separate
+      individuals and the spells cast at the same time. When
+      multiple casters are involved in a Ward, the spell is
+      affected in two different ways. First, each caster beyond
+      the first may designate an additional portal through which
+      the Ward may be accessed, using the same rules as for the
+      initial portal. Second, additional casters will increase the
+      size of the Ward as follows: A single Ward may cover a
+      building up to the size of a small home or large
+      cabin. Larger buildings, as determined by the local
+      chapter’s staff, may require multiple Wards to be cast to
+      cover the entire building.  Players are encouraged to check
+      with their local staff beforehand to determine if multiple
+      Wards will be required. You cannot mix a Ward with a Wizard
+      Lock in this fashion.
+
+      The “W” must be placed on the portal prior to casting this
+      spell, and this must be performed in-game. Any observers
+      will thus be aware that you are attempting to place a Ward
+      or a Wizard Lock on the building.
+
+      As soon as the spell is cast, the names of the persons who
+      are invested must be written on the marshal’s notes attached
+      to the back of the door.
+
+      All persons within the Ward when it is cast are invested
+      into the Ward. They may then enter and leave the Warded
+      building at any time while the Ward is in effect. Once the
+      Ward is cast, an invested member can, within the 5 days,
+      cast Lesser Investment to invest other people into the Ward.
+
+      In order to allow others to pass into or out of the Ward,
+      they must be “recognized” by an invested member of the
+      Ward. The invested member must clearly gesture, touch, or
+      name the subject creature and must state “the Ward
+      recognizes you.” This is an out-of-game statement, so it can
+      be made while Silenced. The effect is understood in-game by
+      all who hear it.
+
+      Upon being recognized, a person must immediately enter or
+      exit the Ward. If the recognized person does not immediately
+      act upon the recognition, then the recognition will expire.
+
+      Invested members who are unconscious (or conscious, yet
+      unwilling) will not pass through the Ward unless recognized
+      by someone else.
+
+      When using combat skills or spells, you must be completely
+      inside or outside of the Ward. For example, you cannot begin
+      a spell incant while inside the Ward, and then step out and
+      throw your packet.
+
+      If the Ward is somehow destroyed and replaced with a new
+      one, an out-of-game notice must be placed upon the Marshal’s
+      Notes on the door.
+
+      It is possible to Ward or Wizard Lock a smaller room within
+      the Ward as long as the two rooms do not share the same
+      portal. The outer Ward or Wizard Lock must be cast first.
+
+      Wards are not affected by Dispel. The only way to remove a
+      Ward is through ritual magic.
+
+      The only way to tell if a building has been Warded or Wizard
+      Locked is to observe the “W” on the portal. The people
+      inside a Ward will not know that the Ward has been removed
+      until they observe that the “W” is no longer on the portal.
+    </description>
+    <spell>
+      <verbal>With eldritch force I build a Ward.</verbal>
+      <school>Celestial</school>
+      <level>9</level>
+    </spell>
+  </effect>
+
+  <effect>
+    <name>Weakness</name>
+    <group>Curse</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect will curse the victim to inflict 5 points less
+      damage with every weapon attack (minimum damage being zero,
+      of course). It will first reduce strength bonuses, then
+      weapon proficiencies.
+
+      It affects all weapon damage in the same way, including
+      ranged attacks, and regardless of whether the weapon is used
+      with one hand or two.
+
+      This effect lasts for ten minutes or until removed with a
+      Remove Weakness, Dispel or Purify.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Remove Weakness</remove>
+    <spell>
+      <verbal>I curse you with Weakness.</verbal>
+      <school>Earth</school>
+      <level>3</level>
+    </spell>
+    <potion>15</potion>
+    <elixir>15</elixir>
+    <gas>20</gas>
+    <weapon>25</weapon>
+  </effect>
+
+  <effect>
+    <name>Web</name>
+    <group>Binding</group>
+    <duration>Line-of-sight</duration>
+    <description>
+      This spell snares the arms of its victim, binding them
+      straight to its sides and immobilizing the victim completely
+      from the neck down.
+
+      The victim may talk freely, but may not use any Game Ability
+      requiring the use of the arms, including using a weapon or
+      shield, casting a spell, or activating a gas globe.
+
+      The victim may not walk, run, or be moved in any way. This
+      spell does not prevent the victim from being searched or
+      being giving a Killing Blow.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Release</remove>
+    <spell>
+      <verbal>With mystic force I Web you.</verbal>
+      <school>Celestial</school>
+      <school>Earth</school>
+      <level>5</level>
+    </spell>
+    <scroll>25</scroll>
+  </effect>
+
+  <effect>
+    <name>Wither</name>
+    <group>Necromancy</group>
+    <duration>Ten minutes</duration>
+    <description>
+      This effect causes the target’s limb to become aged and
+      infirm. The limb should be specified by the caster (right or
+      left leg or arm).
+
+      If the caster does not specify, or if the effects are from a
+      potion, it is the victim’s choice as to which limb to have
+      withered; however, you may not choose a limb that has
+      already been withered.
+
+      You can have up to four Wither spells active upon you at a
+      time. If further Withers are cast upon you, then the
+      earliest Wither will be replaced and you must start counting
+      the ten minutes from that point.
+
+      No weapon may be wielded by that limb nor may the limb be
+      used for locomotion or spellcasting. Only an arm or leg can
+      thus be withered. Tentacles or similar appendages are
+      considered arms for this purpose. The head, tongue, or any
+      other such organs do not count as limbs.
+
+      A Restore or a Purify will heal all withered limbs. A Dispel
+      will likewise restore all limbs but will also remove all
+      other magics upon the recipient.
+
+      If this spell is cast upon an undead creature, it will have
+      the same effect as a Restore has on a living creature.
+    </description>
+    <remove>Dispel</remove>
+    <remove>Purify</remove>
+    <remove>Restore</remove>
+    <spell>
+      <verbal>I call upon chaos to Wither your &lt;limb&gt;.</verbal>
+      <school>Earth</school>
+      <level>6</level>
+    </spell>
+    <potion>30</potion>
+  </effect>
+
+  <effect>
+    <name>Wizard Lock</name>
+    <group>Eldritch Force</group>
+    <duration>Five days</duration>
+    <description>
+      This spell is identical to a Ward spell except that it is
+      cancelled by a Dispel.
+
+      If you wish to upgrade your Wizard Lock into a Ward, you
+      must first dispel the Wizard Lock. In all other respects,
+      this spell follows all of the rules for a Ward, including
+      the use of Lesser Investment.
+
+      The building must be visibly marked with a large “W” to
+      indicate the presence of a Ward or Wizard Lock.
+
+      There is no way to tell the difference between a Ward or a
+      Wizard Lock just by looking at it; the only way to tell is
+      to cast a Dispel at the portal and see if it remains. You
+      must have a marshal present in order to do this.
+    </description>
+    <remove>Dispel</remove>
+    <spell>
+      <verbal>With eldritch force I build a Wizard Lock.</verbal>
+      <school>Celestial</school>
+      <level>8</level>
+    </spell>
+    <scroll>40</scroll>
+  </effect>
+</effects>
