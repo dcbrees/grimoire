@@ -3,7 +3,10 @@ require 'nokogiri'
 effects =  Nokogiri::XML(File.open("../xml/effects.xml"))
 
 def sanitize(s)
-  s.gsub('#', '\#')
+  s = s.gsub('#', '\#')
+  s = s.gsub('<', '\\textless{}')
+  s = s.gsub('>', '\\textgreater{}')
+  return s
 end
 
 def wrap(tag, content)
