@@ -23,7 +23,8 @@ effects.xpath('//effect').each do |effect|
   list.clear
   
   output << wrap("subsection*", effect.at('name').text) + "\n"
-
+  output << wrap("index", effect.at('name').text) + "\n"
+  
   if effect.at('spell')
     list.push 'Spell'
   end
