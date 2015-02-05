@@ -1,7 +1,1 @@
-tex/*.aux
-tex/*.idx
-tex/*.ilg
-tex/*.ind
-tex/*.log
-tex/*.pdf
-tex/generated/
+build/

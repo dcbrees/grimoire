@@ -93,6 +93,6 @@ effects.xpath('//effect').each do |effect|
     output << wrap("end", "center")
   end
   
-  File.write('../tex/generated/effects.tex', output)
+  File.write('../build/effects.tex', output)
 end
 
